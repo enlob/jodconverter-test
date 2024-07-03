@@ -1,0 +1,13 @@
+jodconverter:
+  local:
+    enabled: true
+    format-options:
+      html:
+        store:
+          TEXT:
+            FilterOptions: EmbedImages
+
+      xhtml:
+        store:
+          TEXT:
+            FilterOptions: EmbedImages
